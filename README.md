@@ -1,8 +1,9 @@
 # nppy
 
-python3.12 -m venv venv
-source venv/bin/activate
+`python3.12 -m venv venv`
 
-pip3.12 install -r requirements.txt
+`source venv/bin/activate`
 
-uvicorn app:app --reload
+`pip3.12 install -r requirements.txt`
+
+`uvicorn app:app --reload`
