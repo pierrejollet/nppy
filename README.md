@@ -22,10 +22,13 @@ A partir de ces questions, et du clone du répertoire _nppy_, des fichiers seron
 
 Avant d'automatiser le fichier bash, voici les commandes à lancer manuellement.
 
-`python3.12 -m venv venv` - _Création de l'environnement virtuel_
-`source venv/bin/activate` - _Activation de l'environnement virtuel_
-`pip3.12 install -r requirements.txt` - _Installation des requirements_
-`uvicorn app:app --reload` - _Lancement du serveur virtuel_
+- `python3.12 -m venv venv` - _Création de l'environnement virtuel_
+
+- `source venv/bin/activate` - _Activation de l'environnement virtuel_
+
+- `pip3.12 install -r requirements.txt` - _Installation des requirements_
+
+- `uvicorn app:app --reload` - _Lancement du serveur virtuel_
 
 ## Contact
 
